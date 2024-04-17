@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corazón Palpitante</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 90px;
+  }
+
+  .heart:before,
+  .heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+
+  .heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+  .text {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .heart-animation {
+    animation: heartbeat 1s infinite;
+  }
+
+  .container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .circle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
+  }
+</style>
+</head>
+<body>
+<div class="heart heart-animation"></div>
+<div class="text">SHEILA TE AMO</div>
+<div class="container">
+  <!-- Aquí duplicamos y agregamos más imágenes de manera aleatoria por todo el body -->
+  <!-- Puedes agregar más imágenes si lo deseas -->
+  <!DOCTYPE html>
+  <html lang="es">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corazón Palpitante</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      overflow: hidden;
+      position:static
+    }
+  
+    .heart {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100px;
+      height: 90px;
+    }
+  
+    .heart:before,
+    .heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background-color: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+  
+    .heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+  
+    .text {
+      font-size: 50px;
+      text-align: center;
+      margin-top: 100px;
+    }
+  
+    @keyframes heartbeat {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+  
+    .heart-animation {
+      animation: heartbeat 1s infinite;
+    }
+  
+    .container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  
+    .circle {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      clip-path: circle(50% at 50% 50%);
+    }
+  </style>
+  </head>
+  <body>
+  <div class="heart heart-animation"></div>
+  <div class="text">SHEILA TE AMO</div>
+  <div class="container">
+    <!-- Aquí duplicamos y agregamos más imágenes de manera aleatoria por todo el body -->
+    <!-- Puedes agregar más imágenes si lo deseas -->
+    <img class="circle" src="assets/IMG-20220304-WA0020.jpg" alt="imagen1" style="top: 10%; left: 10%;">
+    <img class="circle" src="assets/IMG-20220314-WA0011.jpg" alt="imagen2" style="top: 20%; left: 20%;">
+    <img class="circle" src="assets/IMG-20220910-WA0040.jpg" alt="imagen3" style="top: 30%; left: 30%;">
+    <img class="circle" src="assets/IMG_20220930_194948_408.webp" alt="imagen4" style="top: 40%; left: 40%;">
+    <img class="circle" src="assets/IMG_20221226_193143_680.jpg" alt="imagen5" style="top: 50%; left: 50%;">
+    <img class="circle" src="assets/IMG_20221226_193443_144.jpg" alt="imagen6" style="top: 60%; left: 60%;">
+    <img class="circle" src="assets/IMG_20221226_194021_735.jpg" alt="imagen7" style="top: 70%; left: 70%;">
+    <img class="circle" src="assets/IMG_20230110_125145_528.jpg" alt="imagen8" style="top: 80%; left: 80%;">
+  
+    <img class="circle" src="assets/IMG-20220304-WA0020.jpg" alt="imagen9" style="top: 20%; left: 80%;">
+    <img class="circle" src="assets/IMG-20220314-WA0011.jpg" alt="imagen10" style="top: 30%; left: 70%;">
+    <img class="circle" src="assets/IMG-20220910-WA0040.jpg" alt="imagen11" style="top: 40%; left: 60%;">
+    <img class="circle" src="assets/IMG_20220930_194948_408.webp" alt="imagen12" style="top: 50%; left: 50%;">
+    <img class="circle" src="assets/IMG_20221226_193143_680.jpg" alt="imagen13" style="top: 60%; left: 40%;">
+    <img class="circle" src="assets/IMG_20221226_193443_144.jpg" alt="imagen14" style="top: 70%; left: 30%;">
+    <img class="circle" src="assets/IMG_20221226_194021_735.jpg" alt="imagen15" style="top: 80%; left: 20%;">
+    <img class="circle" src="assets/IMG_20230110_125145_528.jpg" alt="imagen16" style="top: 90%; left: 10%;">
+  
+    <!-- Puedes continuar duplicando y ajustando las posiciones de las imágenes según sea necesario -->
+  </div>
+  </body>
+  </html>
+  
+
+  <!-- Puedes continuar duplicando y ajustando las posiciones de las imágenes según sea necesario -->
+</div>
+</body>
+</html>
